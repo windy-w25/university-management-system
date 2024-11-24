@@ -1,0 +1,18 @@
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    min-height: 100vh;
+}
+
+#page-content-wrapper {
+    flex-grow: 1;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+    transition: all 0.3s;
+}
