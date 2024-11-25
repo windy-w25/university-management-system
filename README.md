@@ -15,6 +15,9 @@
 -npm run dev
 -php artisan serve
 
+## DB Seed
+-php artisan db:seed
+
 ### Prerequisites
 Make sure you have the following installed:
 - PHP 8.2
